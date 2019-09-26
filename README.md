@@ -1,12 +1,12 @@
-ref-array
+ref-array-napi
 =========
 ### Create C typed "array" instances on top of Buffers
-[![Build Status](https://secure.travis-ci.org/TooTallNate/ref-array.svg)](https://travis-ci.org/TooTallNate/ref-array)
-[![Build Status](https://ci.appveyor.com/api/projects/status/auxk791h56hbughd?svg=true)](https://ci.appveyor.com/project/TooTallNate/ref-array)
+[![Build Status](https://secure.travis-ci.org/Janealter/ref-array-napi.svg)](https://travis-ci.org/Janealter/ref-array-napi)
+[![Build Status](https://ci.appveyor.com/api/projects/status/gibqc0mg6dkdn9o4?svg=true)](https://ci.appveyor.com/project/Janealter/ref-array-napi)
 
 
 This module offers an "array" implementation on top of Node.js Buffers using
-the ref "type" interface.
+the ref "type" interface. Supports Node 6, 7, 8, 10, 12.
 
 Installation
 ------------
@@ -14,7 +14,7 @@ Installation
 Install with `npm`:
 
 ``` bash
-$ npm install ref-array
+$ npm install ref-array-napi
 ```
 
 
@@ -24,8 +24,8 @@ Examples
 #### Basic usage
 
 ``` js
-var ref = require('ref')
-var ArrayType = require('ref-array')
+var ref = require('ref-napi')
+var ArrayType = require('ref-array-napi')
 
 // typedef
 var int = ref.types.int

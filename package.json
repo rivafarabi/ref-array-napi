@@ -1,15 +1,15 @@
 {
-  "name": "ref-array",
-  "description": "Create C \"array\" instances on top of Buffers",
+  "name": "ref-array-napi",
+  "description": "Create C \"array\" instances on top of Buffers. Supports Node 6, 7, 8, 10, 12.",
   "keywords": [
     "array",
     "ref"
   ],
   "version": "1.2.0",
-  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
+  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net) & Janealter",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/ref-array.git"
+    "url": "git://github.com/Janealter/ref-array-napi.git"
   },
   "main": "./lib/array.js",
   "license": "MIT",
