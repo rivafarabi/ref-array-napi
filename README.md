@@ -1,7 +1,7 @@
 ref-array-napi
 =========
 ### Create C typed "array" instances on top of Buffers
-[![Build Status](https://secure.travis-ci.org/Janealter/ref-array-napi.svg)](https://travis-ci.org/Janealter/ref-array-napi)
+[![Build Status](https://travis-ci.org/Janealter/ref-array-napi.svg)](https://travis-ci.org/Janealter/ref-array-napi)
 [![Build Status](https://ci.appveyor.com/api/projects/status/gibqc0mg6dkdn9o4?svg=true)](https://ci.appveyor.com/project/Janealter/ref-array-napi)
 
 
