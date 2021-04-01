@@ -19,7 +19,7 @@
   "dependencies": {
     "array-index": "1",
     "debug": "2",
-    "ref-napi": "^1.4.2"
+    "ref-napi": "^3.0.1"
   },
   "devDependencies": {
     "bindings": "1",
