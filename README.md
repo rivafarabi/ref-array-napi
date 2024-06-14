@@ -24,7 +24,7 @@ Examples
 #### Basic usage
 
 ``` js
-var ref = require('ref-napi')
+var ref = require('@breush/ref-napi')
 var ArrayType = require('ref-array-napi')
 
 // typedef

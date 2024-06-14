@@ -4,7 +4,7 @@
 // Used definitions by: Paul Loyd <https://github.com/loyd>
 // TypeScript Version: 3.7
 
-import ref = require('ref-napi');
+import ref = require('@breush/ref-napi');
 
 interface ArrayTypeInstance<T> {
   [i: number]: T;
